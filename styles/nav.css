@@ -1,1 +1,294 @@
+html {
+      font-family: "Poppins";
+}
+
+body {
+      margin: 0;
+      padding: 0;
+}
+
+nav{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      background: #e3e3e3;
+      position: relative;
+
+}
+
+nav ul li {
+      display: inline-block;
+}
+nav ul li a {
+      color: #292929;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+}
+
+
+
+nav ul ul {
+      position: absolute;
+      min-width: 200px;
+      background: lightgrey;
+      display: none;
+}
+
+nav ul ul li {
+      display: block;
+      background: #e3e3e3;
+}
+
+
+nav ul li em {
+      color: #292929;
+      float: right;
+      padding-left: 20px;
+}
+
+.hmlogo{
+      background: lightgrey;
+      color: #292929;
+      font-size: 24px;
+      padding: 0.6em;
+      cursor: pointer;
+
+}
+.row{
+  position: relative;
+  margin-bottom: 0px;
+
+}
+.row input{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  float:right;
+ background: white;
+ border-radius: 0 5px 5px 0;
+ cursor:pointer;
+ padding:7px;
+ font-family: sans-serif;
+ border-color:#90b5ce;
+ font-size:16px;
+}
+.row img{
+  width: 200px;
+  height: 110px;
+  marign-bottom:0px;
+}
+.hmlogo img{
+  height: 20px;
+  width: 20px;
+
+}
+
+
+.side-nav{
+  padding-top: 20px;
+  width: 100%;
+  height: 500px;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.side-nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+.side-nav li a{
+ display: block;
+ color: #000;
+ padding: 8px 16px;
+ text-decoration: none;
+}
+.side-nav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.side-nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+card{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.gridtop{
+  display: flex;
+  justify-content: space-between;
+}
+.top-section2{
+  margin-left: 20px;
+}
+.grid-parent
+{
+    margin-top: opx;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    grid-gap: 3em;
+    width: 70%;
+}
+.top-section2 h1{
+
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #3d407c;
+}
+.top-section2 p{
+  color: black;
+  text-align: justify;
+
+}
+
+
+
+
+
+.card-head img{
+
+  max-width:100%;
+  max-height:100%;
+  margin:0px;
+
+
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.card:hover{
+  transform: translate(.5%,.5%);
+
+}
+.card:hover ul{
+  opacity: 1;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.card-head
+{
+  position: relative;
+  height: 252px;
+  background: #c5dae8;
+
+}
+
+
+
+
+
+
+
+.card-body
+{
+  height: 140px;
+  background: #302929;
+
+}
+
+.content-title
+{
+  padding: 20px 20px 5px 20px;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.content-title b
+{
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: white;
+  margin-left: 40px;
+}
+
+
+
+.content-caption
+{
+  display: block;
+  padding: 0 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+
+}
+.content-title b:hover
+{
+  color: #a8b8c4;
+}
+.card-button{
+  transform: translate(120%,20%);
+  margin-top: 10px;
+  background: #34383f;
+  color:white;
+  font-family: monospace;
+}
+.tools{
+  background: lightgrey;
+  width: 20%;
+  height: 400px;
+  margin-left: 15px;
+}
+.middlesection{
+  display: flex;
+  justify-content: space-between;
+
+}
+@media(max-width: 768px) {
+      .gridtop{
+        width:95%;
+      }
+      nav div {
+            display: block;
+      }
+
+      nav ul {
+            display: none;
+            position: static;
+            background: #e3e3e3;
+      }
+
+      nav ul li {
+            display: block;
+      }
+
+      nav ul ul {
+            position: static;
+            background: #e3e3e3;
+      }
+      .side-nav{
+            display: none;
+
+      }
+
+      .tools{
+        display: none;
+      }
+      .grid-parent{
+        margin-left: 50px;
+
+      }
+
+}
+@media(min-width: 768px) {
+  .hmlogo{
+    display:none;
+  }
+}
 
