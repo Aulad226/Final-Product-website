@@ -19,12 +19,14 @@ nav{
 nav ul li {
       display: inline-block;
 }
+
 nav ul li a {
       color: #292929;
       text-decoration: none;
       padding: 15px;
       display: block;
 }
+
 nav ul ul {
       position: absolute;
       min-width: 200px;
@@ -36,7 +38,6 @@ nav ul ul li {
       display: block;
       background: #e3e3e3;
 }
-
 
 nav ul li em {
       color: #292929;
@@ -52,11 +53,13 @@ nav ul li em {
       cursor: pointer;
 
 }
+
 .row{
   position: relative;
   margin-bottom: 0px;
 
 }
+
 .row input{
   float: right;
   margin-top: 20px;
@@ -70,16 +73,19 @@ nav ul li em {
  border-color:#90b5ce;
  font-size:16px;
 }
+
 .row img{
   width: 200px;
   height: 110px;
   marign-bottom:0px;
 }
+
 .hmlogo img{
   height: 20px;
   width: 20px;
 
 }
+
 .side-nav{
   padding-top: 20px;
   width: 100%;
@@ -88,6 +94,7 @@ nav ul li em {
   margin-bottom: 10px;
   margin-left: 15px;
 }
+
 .side-nav ul{
   list-style-type: none;
   margin: 0;
@@ -95,6 +102,7 @@ nav ul li em {
   width: 100%;
 
 }
+
 .side-nav li a{
  display: block;
  color: #000;
