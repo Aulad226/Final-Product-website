@@ -194,8 +194,8 @@ a{
 
 .card-body
 {
-  height: 140px;
-  background: #302929;
+  height: 180px;
+  background: #4775a3;
 }
 
 .content-title{
@@ -227,9 +227,9 @@ a{
 }
 
 .card-button{
-  transform: translate(120%,20%);
-  margin-top: 10px;
-  background: #34383f;
+  transform: translate(110%,20%);
+  margin-top: 8px;
+  background: #02000f;
   color:white;
   font-family: monospace;
 }
@@ -292,3 +292,10 @@ a{
     display:none;
   }
 }
+.foot{
+  margin-top: 50px;
+  text-align: center;
+  color:blue;
+  background-color: black;
+}
+
