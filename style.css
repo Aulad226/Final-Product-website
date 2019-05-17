@@ -109,10 +109,12 @@ nav ul li em {
  padding: 8px 16px;
  text-decoration: none;
 }
+
 .side-nav li a.active {
   background-color: #4CAF50;
   color: white;
 }
+
 .side-nav li a:hover:not(.active) {
   background-color: #555;
   color: white;
@@ -123,35 +125,37 @@ card{
   padding: 0;
   outline: none;
 }
+
 .gridtop{
   display: flex;
   justify-content: space-between;
 }
+
 .top-section2{
   margin-left: 20px;
 }
-.grid-parent
-{
+
+.grid-parent{
     margin-top: opx;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
     grid-gap: 3em;
     width: 70%;
 }
-.top-section2 h1{
 
+.top-section2 h1{
   font-family: sans-serif;
   font-size: 30px;
   text-align: center;
   color: #3d407c;
 }
+
 .top-section2 p{
   color: black;
   text-align: justify;
-
 }
-.card-head img{
 
+.card-head img{
   max-width:100%;
   max-height:100%;
   margin:0px;
@@ -173,8 +177,7 @@ a{
   transition: all 1s ease-in-out;
 }
 
-.card-head
-{
+.card-head{
   position: relative;
   height: 252px;
   background: #c5dae8;
@@ -185,11 +188,9 @@ a{
 {
   height: 140px;
   background: #302929;
-
 }
 
-.content-title
-{
+.content-title{
   padding: 20px 20px 5px 20px;
   display: block;
   font-size: 15px;
@@ -198,16 +199,14 @@ a{
   text-transform: uppercase;
 }
 
-.content-title b
-{
+.content-title b{
   font-weight: 900;
   letter-spacing: 0px;
   color: white;
   margin-left: 40px;
 }
 
-.content-caption
-{
+.content-caption{
   display: block;
   padding: 0 20px;
   font-size: 13px;
@@ -215,10 +214,10 @@ a{
   color: white;
 
 }
-.content-title b:hover
-{
+.content-title b:hover{
   color: #a8b8c4;
 }
+
 .card-button{
   transform: translate(120%,20%);
   margin-top: 10px;
@@ -226,21 +225,25 @@ a{
   color:white;
   font-family: monospace;
 }
+
 .tools{
   background: lightgrey;
   width: 20%;
   height: 400px;
   margin-left: 15px;
 }
+
 .middlesection{
   display: flex;
   justify-content: space-between;
 
 }
+
 @media(max-width: 768px) {
       .gridtop{
         width:95%;
       }
+      
       nav div {
             display: block;
       }
@@ -259,6 +262,7 @@ a{
             position: static;
             background: #e3e3e3;
       }
+      
       .side-nav{
             display: none;
 
@@ -267,12 +271,14 @@ a{
       .tools{
         display: none;
       }
+      
       .grid-parent{
         margin-left: 50px;
 
       }
 
 }
+
 @media(min-width: 768px) {
   .hmlogo{
     display:none;
