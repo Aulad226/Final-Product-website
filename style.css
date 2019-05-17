@@ -43,7 +43,15 @@ nav ul li em {
       color: #292929;
       float: right;
       padding-left: 20px;
-}
+    }
+nav ul li a.active {
+      background-color: blue;
+      color: white;
+    }
+nav ul li a:hover{
+      background-color:navy;
+      color: white;
+    }
 
 .hmlogo{
       background: lightgrey;
@@ -243,7 +251,7 @@ a{
       .gridtop{
         width:95%;
       }
-      
+
       nav div {
             display: block;
       }
@@ -262,7 +270,7 @@ a{
             position: static;
             background: #e3e3e3;
       }
-      
+
       .side-nav{
             display: none;
 
@@ -271,7 +279,7 @@ a{
       .tools{
         display: none;
       }
-      
+
       .grid-parent{
         margin-left: 50px;
 
@@ -284,4 +292,3 @@ a{
     display:none;
   }
 }
-
