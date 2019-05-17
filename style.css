@@ -145,11 +145,11 @@ card{
 }
 
 .grid-parent{
-    margin-top: opx;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
-    grid-gap: 3em;
-    width: 70%;
+   margin-top: opx;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+   grid-gap: 3em;
+   width: 70%;
 }
 
 .top-section2 h1{
