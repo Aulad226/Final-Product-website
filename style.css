@@ -160,6 +160,7 @@ card{
 .top-section1{
   margin-top:10px;
   padding: 0px;
+  float: left;
 }
 .top-section1 img{
   height: 225px;
