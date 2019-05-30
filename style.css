@@ -141,6 +141,14 @@ card{
   display: flex;
   justify-content: space-between;
 }
+.top-section1{
+  margin-top:10px;
+  padding: 0px;
+}
+.top-section1 img{
+  height: 225px;
+  width: 400px;
+}
 
 .top-section2{
   margin-left: 20px;
@@ -221,6 +229,14 @@ align-self: center;
             display: block;
             background: #1b2c47;
       }
+
+      .top-section1{
+          display:none;
+
+      }
+
+
+
 
 
 }
