@@ -16,6 +16,9 @@ nav{
       position: relative;
 
 }
+a{
+  text-decoration: none;
+}
 
 nav ul li {
       display: inline-block;
