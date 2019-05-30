@@ -146,17 +146,11 @@ nav ul ul li a:hover{
   color: white;
 }
 
-card{
-  margin: 0;
-  padding: 0;
-  outline: none;
-}
-
 .gridtop{
   display: flex;
   justify-content: space-between;
   margin-left: -10px;
-  padding: 3% 0 3% 0;
+  padding: 3% 4%;
 }
 .top-section1{
   margin-top: 20px;
@@ -173,7 +167,8 @@ card{
   text-align: justify;
 }
 .top-section2 h1{
-  font-size: 32px;
+  font-size: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 p{
