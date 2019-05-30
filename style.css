@@ -235,12 +235,7 @@ a{
   font-family: monospace;
 }
 
-.tools{
-  background: lightgrey;
-  width: 300px;
-  height: 300px;
-  margin-left: 15px;
-}
+
 
 .text-wrap{
   width: 200px
@@ -280,7 +275,7 @@ padding-top:20px;
       nav ul {
             display: none;
             position: static;
-            background: #e3e3e3;
+            
       }
 
       nav ul li {
@@ -289,7 +284,7 @@ padding-top:20px;
 
       nav ul ul {
             position: static;
-            background: #e3e3e3;
+           
       }
 
       .side-nav{
