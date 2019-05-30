@@ -215,6 +215,11 @@ margin: 0;
 padding: 16px;
 }
 
+.card-descrip h3{
+margin-bottom: 15px;
+
+}
+
 .card-layout button {
 width: 100px;
 height: 40px;
@@ -249,11 +254,15 @@ align-self: center;
       }
 
       .side-nav{
-            display: none;
+            display: block;
+
 
       }
 
-
+      .side-nav ul li{
+        display:block;
+        padding-top: 20px;
+      }
       nav ul ul li {
             display: block;
             background: #1b2c47;
