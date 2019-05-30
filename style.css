@@ -11,6 +11,26 @@ body {
   margin-left: 10px;
 }
 
+.row input{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  float:right;
+ background: white;
+ border-radius: 0 5px 5px 0;
+ cursor:pointer;
+ padding:7px;
+ font-family: sans-serif;
+ border-color:#90b5ce;
+ font-size:16px;
+}
+
+.row img{
+  width: 200px;
+  height: 110px;
+  marign-bottom:0px;
+}
+
 nav{
       margin: 0;
       padding: 0;
