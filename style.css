@@ -4,11 +4,31 @@ html {
 
 body {
 
-      
+
       padding: 0;
 }
 .wrapper{
   margin-left: 10px;
+}
+
+.row input{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  float:right;
+ background: white;
+ border-radius: 0 5px 5px 0;
+ cursor:pointer;
+ padding:7px;
+ font-family: sans-serif;
+ border-color:#90b5ce;
+ font-size:16px;
+}
+
+.row img{
+  width: 200px;
+  height: 110px;
+  marign-bottom:0px;
 }
 
 nav{
@@ -81,31 +101,7 @@ nav ul ul li a:hover{
 
 }
 
-.row{
-  position: relative;
-  margin-bottom: 0px;
 
-}
-
-.row input{
-  float: right;
-  margin-top: 20px;
-  margin-right: 20px;
-  float:right;
- background: white;
- border-radius: 0 5px 5px 0;
- cursor:pointer;
- padding:7px;
- font-family: sans-serif;
- border-color:#90b5ce;
- font-size:16px;
-}
-
-.row img{
-  width: 200px;
-  height: 110px;
-  marign-bottom:0px;
-}
 
 .hmlogo img{
   height: 20px;
