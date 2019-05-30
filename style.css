@@ -159,14 +159,15 @@ card{
 .top-section2{
   margin-left: 20px;
   margin-bottom: auto;
+  text-align: justify;
 
 }
 .top-section2 h1{
-  font-size: 35px;
+  font-size: 32px;
   text-align: center;
 }
 p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .cards{
@@ -176,8 +177,8 @@ p{
   grid-gap: 25px;
 
 }
-.cards butto{
-  align-self: center;
+.butto{
+  text-align: center;
 }
 .card-layout{
   width: 370px;
