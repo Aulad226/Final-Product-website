@@ -243,6 +243,7 @@ a {
 
 .ct-footer-meta .ct-socials {
     padding: 20px 0;
+    display: inline;
 }
 
 .ct-footer-meta .ct-socials li {
@@ -252,7 +253,9 @@ a {
 .ct-footer--with-button {
     padding-top: 150px
 }
-
+.col-sm-6 col-md-3{
+  display: inline;
+}
 address {
     color: #fff;
     display: inline-block;

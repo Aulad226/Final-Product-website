@@ -168,6 +168,9 @@ card{
   height: 450px;
   background-color: white;
 }
+.middlesection{
+  margin-right: 0px;
+}
 
 .card-icon{
 width:100%;
