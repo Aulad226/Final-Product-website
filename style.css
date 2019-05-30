@@ -155,23 +155,22 @@ card{
 .gridtop{
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-left: -10px;
+  padding: 3% 0 3% 0;
 }
 .top-section1{
-  margin-top:10px;
+  margin-top: 20px;
   padding: 0px;
-  float: left;
 }
 .top-section1 img{
   height: 225px;
-  width: 400px;
+  width: auto;
+  margin-left: 20px;
 }
 
 .top-section2{
-  margin-left: 20px;
-  margin-bottom: auto;
+  margin: 0 20px;
   text-align: justify;
-
 }
 .top-section2 h1{
   font-size: 32px;
@@ -186,15 +185,18 @@ p{
   grid-template-columns: repeat(auto-fit, minmax(400px, 0fr));
   margin-top: 30px;
   grid-gap: 25px;
+  align-items: center;
 
 }
-.butto{
+.button{
   text-align: center;
 }
 .card-layout{
-  width: 370px;
+  width: 100%;
   height: 450px;
   background-color: white;
+  text-align: center;
+
 }
 .middlesection{
   margin-left: 15px;
@@ -220,7 +222,6 @@ padding: 16px;
 width: 100px;
 height: 40px;
 align-self: center;
-
 }
 
 
