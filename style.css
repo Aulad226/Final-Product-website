@@ -258,18 +258,10 @@ align-self: center;
 
 
       }
-      .side-nav::before{
-        display:block;
-        background: blue;
-      }
+
       .side-nav ul li{
         display:block;
         padding-top: 20px;
-      }
-
-      .ham{
-        background-color: red;
-        display: block;
       }
       nav ul ul li {
             display: block;
