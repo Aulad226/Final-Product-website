@@ -54,7 +54,7 @@ nav ul li a:hover{
     }
 
 .hmlogo{
-      background: lightgrey;
+      background: #1b2c47;
       color: #292929;
       font-size: 24px;
       padding: 0.6em;
@@ -149,7 +149,7 @@ card{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
     grid-gap: 3em;
-    width: 70%;
+    
 }
 
 .top-section2 h1{
