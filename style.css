@@ -140,6 +140,7 @@ card{
 .gridtop{
   display: flex;
   justify-content: space-between;
+  margin-left: 10px;
 }
 .top-section1{
   margin-top:10px;
