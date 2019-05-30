@@ -258,6 +258,9 @@ align-self: center;
 
 
       }
+      .side-nav ul li:hover{
+        background:#555;
+      }
 
       .side-nav ul li{
         display:block;
