@@ -3,9 +3,12 @@ html {
 }
 
 body {
-      margin-right: 20px;
-      margin-left: 20px;
+
+      
       padding: 0;
+}
+.wrapper{
+  margin-left: 10px;
 }
 
 nav{
@@ -49,6 +52,13 @@ nav ul li em {
       float: right;
       padding-left: 20px;
     }
+nav ul li em:hover {
+     background-color: navy;
+     color:white;
+        }
+nav ul li:hover{
+    background-color:navy;
+}
 nav ul li a.active {
       background-color: blue;
       color: white;
@@ -57,6 +67,10 @@ nav ul li a:hover{
       background-color:navy;
       color: white;
     }
+nav ul ul li a:hover{
+      background-color:navy;
+      color: white;
+        }
 
 .hmlogo{
       background: #1b2c47;
