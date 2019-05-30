@@ -29,6 +29,7 @@ nav ul li a {
       text-decoration: none;
       padding: 15px;
       display: block;
+      font-size: 15px;
 }
 
 nav ul ul {
@@ -122,6 +123,7 @@ nav ul li a:hover{
  padding: 8px 16px;
  text-decoration: none;
   display: inline;
+  font-size: 18px;
 }
 
 .side-nav li a.active {
@@ -157,8 +159,15 @@ card{
 .top-section2{
   margin-left: 20px;
   margin-bottom: auto;
-}
 
+}
+.top-section2 h1{
+  font-size: 35px;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
 
 .cards{
   display: grid;
@@ -166,6 +175,9 @@ card{
   margin-top: 30px;
   grid-gap: 25px;
 
+}
+.cards butto{
+  align-self: center;
 }
 .card-layout{
   width: 370px;
