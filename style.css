@@ -1,5 +1,5 @@
 html {
-      font-family: "Poppins";
+      font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ nav{
       margin: 0;
       padding: 0;
       list-style-type: none;
-      background: #e3e3e3;
+      background: #1b2c47;
       position: relative;
 
 }
@@ -21,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-      color: #292929;
+      color: white;
       text-decoration: none;
       padding: 15px;
       display: block;
@@ -30,13 +30,19 @@ nav ul li a {
 nav ul ul {
       position: absolute;
       min-width: 200px;
-      background: lightgrey;
+      background: #680c0c;
       display: none;
 }
 
 nav ul ul li {
       display: block;
-      background: #e3e3e3;
+      background: #680c0c;
+}
+
+nav ul li em {
+      color: #292929;
+      float: right;
+      padding-left: 20px;
 }
 
 nav ul li em {
